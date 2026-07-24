@@ -1,0 +1,89 @@
+<svg width="540" height="380" viewBox="0 0 540 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="540" height="380" rx="12" fill="#0B0B1A"/>
+  <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="0.5" fill="#2D9B7E" opacity="0.08"/>
+  </pattern>
+  <rect width="540" height="380" fill="url(#dot-grid)"/>
+
+  <!-- Title bar -->
+  <text x="270" y="28" fill="#E8B84B" font-family="monospace" font-size="11" text-anchor="middle" letter-spacing="2" font-weight="600">$ IS ./silsilah-proyek --pipeline</text>
+
+  <!-- Connecting lines (network grid) -->
+  <line x1="105" y1="112" x2="105" y2="130" stroke="#2D9B7E" stroke-width="0.5" opacity="0.3"/>
+  <line x1="270" y1="112" x2="270" y2="130" stroke="#2D9B7E" stroke-width="0.5" opacity="0.3"/>
+  <line x1="105" y1="192" x2="105" y2="210" stroke="#2D9B7E" stroke-width="0.5" opacity="0.3"/>
+  <line x1="270" y1="192" x2="270" y2="210" stroke="#2D9B7E" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 1 -->
+  <!-- Node 1: pangan_pulse -->
+  <rect x="40" y="70" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="105" y="88" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">pangan_pulse</text>
+  <text x="105" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">ETL pipeline &middot; Python</text>
+
+  <!-- Node 2: LSTM -->
+  <rect x="205" y="70" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="270" y="88" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">lstm-forecast</text>
+  <text x="270" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">LSTM &middot; time-series</text>
+
+  <!-- Arrow: pangan_pulse -> LSTM -->
+  <line x1="170" y1="91" x2="195" y2="91" stroke="#E8B84B" stroke-width="0.8"/>
+  <polygon points="195,87.5 187,91 195,94.5" fill="#E8B84B"/>
+
+  <!-- Node 3: dashboard -->
+  <rect x="370" y="70" width="130" height="42" rx="6" fill="#C7684F" stroke="#C7684F" stroke-width="1"/>
+  <text x="435" y="88" fill="#0B0B1A" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">pangan-dashboard</text>
+  <text x="435" y="100" fill="#0B0B1A" font-family="system-ui" font-size="8" text-anchor="middle">Next.js &middot; TypeScript</text>
+
+  <!-- Arrow: LSTM -> dashboard -->
+  <line x1="335" y1="91" x2="360" y2="91" stroke="#E8B84B" stroke-width="0.8"/>
+  <polygon points="360,87.5 352,91 360,94.5" fill="#E8B84B"/>
+
+  <!-- Row 2 -->
+  <!-- Node 4: Absensi-liqo -->
+  <rect x="40" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="105" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">absensi-liqo</text>
+  <text x="105" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Vue &middot; Supabase &middot; QR</text>
+
+  <!-- Node 5: halaqah -->
+  <rect x="205" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="270" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">halaqah</text>
+  <text x="270" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &middot; Flask</text>
+
+  <!-- Bidirectional arrow: Absensi-liqo <-> halaqah -->
+  <line x1="170" y1="171" x2="195" y2="171" stroke="#E8B84B" stroke-width="1.2"/>
+  <polygon points="170,167 178,162 178,172" fill="#E8B84B"/>
+  <polygon points="195,175 187,170 195,167" fill="#E8B84B"/>
+
+  <!-- Node 6: KASAPRO -->
+  <rect x="370" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="435" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">KASAPRO</text>
+  <text x="435" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">JavaScript &middot; POS</text>
+
+  <!-- Row 3 -->
+  <!-- Node 7: simormawa -->
+  <rect x="40" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
+  <text x="105" y="248" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">simormawa</text>
+  <text x="105" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel &middot; Filament</text>
+
+  <!-- Node 8: ekonomiKita -->
+  <rect x="205" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#E07A5C" stroke-width="1"/>
+  <text x="270" y="248" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">ekonomiKita</text>
+  <text x="270" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &middot; Dashboard</text>
+
+  <!-- Arrow: LSTM -> ekonomiKita -->
+  <line x1="270" y1="112" x2="270" y2="140" stroke="#E8B84B" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <polygon points="270,140 266,132 274,132" fill="#E8B84B"/>
+
+  <!-- Node 9: SIDATA-U -->
+  <rect x="370" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#E07A5C" stroke-width="1"/>
+  <text x="435" y="248" fill="#E0B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">SIDATA-U</text>
+  <text x="435" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel</text>
+
+  <!-- Arrow: simormawa -> SIDATA-U -->
+  <line x1="170" y1="251" x2="195" y2="251" stroke="#E8B84B" stroke-width="0.8"/>
+  <polygon points="195,247.5 187,251 195,254.5" fill="#E8B84B"/>
+
+  <!-- Footer label -->
+  <text x="270" y="310" fill="#2D9B7E" font-family="monospace" font-size="8" text-anchor="middle" letter-spacing="1" opacity="0.5">SILISILAH PROYEK — DATA FLOW DIAGRAM</text>
+  <text x="270" y="330" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Setiap proyek adalah node dalam pipeline data yang saling terhubung</text>
+</svg>
