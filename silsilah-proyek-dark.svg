@@ -66,7 +66,7 @@
   <text x="105" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel &middot; Filament</text>
 
   <!-- Node 8: ekonomiKita -->
-  <rect x="205" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#E07A5C" stroke-width="1"/>
+  <rect x="205" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#C7684F" stroke-width="1"/>
   <text x="270" y="248" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">ekonomiKita</text>
   <text x="270" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &middot; Dashboard</text>
 
@@ -75,7 +75,7 @@
   <polygon points="270,140 266,132 274,132" fill="#E8B84B"/>
 
   <!-- Node 9: SIDATA-U -->
-  <rect x="370" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#E07A5C" stroke-width="1"/>
+  <rect x="370" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#C7684F" stroke-width="1"/>
   <text x="435" y="248" fill="#E0B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">SIDATA-U</text>
   <text x="435" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel</text>
 
