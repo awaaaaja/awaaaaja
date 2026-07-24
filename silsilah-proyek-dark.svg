@@ -18,12 +18,12 @@
   <!-- Node 1: pangan_pulse -->
   <rect x="40" y="70" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="105" y="88" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">pangan_pulse</text>
-  <text x="105" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">ETL pipeline &middot; Python</text>
+  <text x="105" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">ETL pipeline &#xB7; Python</text>
 
   <!-- Node 2: LSTM -->
   <rect x="205" y="70" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="270" y="88" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">lstm-forecast</text>
-  <text x="270" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">LSTM &middot; time-series</text>
+  <text x="270" y="100" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">LSTM &#xB7; time-series</text>
 
   <!-- Arrow: pangan_pulse -> LSTM -->
   <line x1="170" y1="91" x2="195" y2="91" stroke="#E8B84B" stroke-width="0.8"/>
@@ -32,7 +32,7 @@
   <!-- Node 3: dashboard -->
   <rect x="370" y="70" width="130" height="42" rx="6" fill="#C7684F" stroke="#C7684F" stroke-width="1"/>
   <text x="435" y="88" fill="#0B0B1A" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">pangan-dashboard</text>
-  <text x="435" y="100" fill="#0B0B1A" font-family="system-ui" font-size="8" text-anchor="middle">Next.js &middot; TypeScript</text>
+  <text x="435" y="100" fill="#0B0B1A" font-family="system-ui" font-size="8" text-anchor="middle">Next.js &#xB7; TypeScript</text>
 
   <!-- Arrow: LSTM -> dashboard -->
   <line x1="335" y1="91" x2="360" y2="91" stroke="#E8B84B" stroke-width="0.8"/>
@@ -42,12 +42,12 @@
   <!-- Node 4: Absensi-liqo -->
   <rect x="40" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="105" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">absensi-liqo</text>
-  <text x="105" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Vue &middot; Supabase &middot; QR</text>
+  <text x="105" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Vue &#xB7; Supabase &#xB7; QR</text>
 
   <!-- Node 5: halaqah -->
   <rect x="205" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="270" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">halaqah</text>
-  <text x="270" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &middot; Flask</text>
+  <text x="270" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &#xB7; Flask</text>
 
   <!-- Bidirectional arrow: Absensi-liqo <-> halaqah -->
   <line x1="170" y1="171" x2="195" y2="171" stroke="#E8B84B" stroke-width="1.2"/>
@@ -57,18 +57,18 @@
   <!-- Node 6: KASAPRO -->
   <rect x="370" y="150" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="435" y="168" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">KASAPRO</text>
-  <text x="435" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">JavaScript &middot; POS</text>
+  <text x="435" y="180" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">JavaScript &#xB7; POS</text>
 
   <!-- Row 3 -->
   <!-- Node 7: simormawa -->
   <rect x="40" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#2D9B7E" stroke-width="1"/>
   <text x="105" y="248" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">simormawa</text>
-  <text x="105" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel &middot; Filament</text>
+  <text x="105" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &#xB7; Laravel &#xB7; Filament</text>
 
   <!-- Node 8: ekonomiKita -->
   <rect x="205" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#C7684F" stroke-width="1"/>
   <text x="270" y="248" fill="#E8B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">ekonomiKita</text>
-  <text x="270" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &middot; Dashboard</text>
+  <text x="270" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">Python &#xB7; Dashboard</text>
 
   <!-- Arrow: LSTM -> ekonomiKita -->
   <line x1="270" y1="112" x2="270" y2="140" stroke="#E8B84B" stroke-width="0.8" stroke-dasharray="3,3"/>
@@ -77,7 +77,7 @@
   <!-- Node 9: SIDATA-U -->
   <rect x="370" y="230" width="130" height="42" rx="6" fill="#1A1B3F" stroke="#C7684F" stroke-width="1"/>
   <text x="435" y="248" fill="#E0B84B" font-family="monospace" font-size="9" text-anchor="middle" font-weight="600">SIDATA-U</text>
-  <text x="435" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &middot; Laravel</text>
+  <text x="435" y="260" fill="#6C727F" font-family="system-ui" font-size="8" text-anchor="middle">PHP &#xB7; Laravel</text>
 
   <!-- Arrow: simormawa -> SIDATA-U -->
   <line x1="170" y1="251" x2="195" y2="251" stroke="#E8B84B" stroke-width="0.8"/>
